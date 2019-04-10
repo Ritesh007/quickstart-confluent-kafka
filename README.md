@@ -11,9 +11,9 @@ Deployment steps:
 1. Sign up for an AWS account at http://aws.amazon.com, select a region, and create a key pair.
 2. Subscribe to a Linux AMI in the AWS Marketplace (Amazon Linux, CentOS 7, or Ubuntu Server 16.04 LTS).
 3. In the AWS CloudFormation console, launch one of the following templates from the S3 URL to build a new stack:
-  * [confluent-kafka-master.template](https://s3.amazonaws.com/quickstart-reference/confluent/kafka/latest/templates/confluent-kafka-master.template) (to deploy Confluent Platform into a new VPC)
-  * [confluent-kafka.template](https://s3.amazonaws.com/quickstart-reference/confluent/kafka/latest/templates/confluent-kafka.template) (to deploy Confluent Platform into your existing VPC)
+  * [confluent-kafka-master.template](https://s3.amazonaws.com/aws-quickstart/quickstart-confluent-kafka/templates/confluent-kafka-master.template) (to deploy Confluent Platform into a new VPC)
+  * [confluent-kafka.template](https://s3.amazonaws.com/aws-quickstart/quickstart-confluent-kafka/templates/confluent-kafka.template) (to deploy Confluent Platform into your existing VPC)
 
 To customize your deployment, you can choose the version and edition of Confluent Platform you'd like to deploy; configure the number, type, and storage capacity for zookeeper, broker, and worker instances; and change CIDR block sizes and other configuration settings.
 
-For detailed deployment and configuration instructions, see the [Quick Start deployment guide](https://s3.amazonaws.com/quickstart-reference/confluent/kafka/latest/doc/confluent-platform-on-the-aws-cloud.pdf).
+For detailed deployment and configuration instructions, see the [Quick Start deployment guide](https://s3.amazonaws.com/aws-quickstart/quickstart-confluent-kafka/doc/confluent-platform-on-the-aws-cloud.pdf).
